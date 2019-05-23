@@ -1,0 +1,55 @@
+
+.numNotifications{
+    position: absolute;
+    top: -93%;
+    right: -69%;
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 auto;
+    vertical-align: text-top;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+}
+
+.dropdown-menu ul{
+    max-height: 239px;
+    overflow: scroll;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu li {
+width: 270px;
+min-width: 200px;
+display: flex;
+-webkit-box-align: start;
+align-items: flex-start;
+padding-left: 6px;
+}
+
+.dropdown-menu li img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 1rem!important;
+    margin-top: 0.6em;
+}
+
+.media-body{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.dropdown-menu li .media-body h5 {
+
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+}
