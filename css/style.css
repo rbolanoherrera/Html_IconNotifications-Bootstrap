@@ -30,6 +30,10 @@ align-items: flex-start;
 padding-left: 6px;
 }
 
+.dropdown-menu li:hover {
+background-color: #e6e6e6;
+}
+
 .dropdown-menu li img{
     border-radius: 50%;
     width: 40px;
